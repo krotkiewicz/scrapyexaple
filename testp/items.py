@@ -10,3 +10,4 @@ import scrapy
 
 class TestItem(scrapy.Item):
     name = scrapy.Field()
+    url = scrapy.Field()

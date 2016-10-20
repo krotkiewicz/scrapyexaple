@@ -6,5 +6,6 @@ setup(
     name         = 'project',
     version      = '1.0',
     packages     = find_packages(),
-    entry_points = {'scrapy': ['settings = test.settings']},
+    entry_points = {'scrapy': ['settings = testp.settings']},
+    scripts      = ['bin/hello2.py', 'bin/dupa.py'],
 )
